@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cloud Shopee</string>
+    <string name="heading">Cloud Shopee</string>
+    <string name="ContinueButton">Continue</string>
+    <string name="welcome">Welcome !!</string>
+    <string name="ContinueLine">Click On Continue To Proceed</string>
 </resources>
