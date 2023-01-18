@@ -12,10 +12,30 @@
         android:theme="@style/Theme.CloudShopee"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Books"
             android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:label="Categories"/>
+            android:label="Books"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Grocery"
+            android:exported="false"
+            android:label="Grocery"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Medicines"
+            android:exported="false"
+            android:label="Medicines"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Electronics"
+            android:exported="false"
+            android:label="Electronics"
+            android:parentActivityName=".Categories" />
+        <activity
+            android:name=".Categories"
+            android:exported="false"
+            android:label="Categories"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

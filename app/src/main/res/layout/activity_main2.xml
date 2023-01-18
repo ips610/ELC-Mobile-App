@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".MainActivity2">
+    tools:context=".Categories">
 
     <TextView
         android:id="@+id/Quantity"
@@ -68,6 +68,7 @@
         android:backgroundTint="#E35900"
         android:minWidth="250dp"
         android:minHeight="70dp"
+        android:onClick="launchGrocery"
         android:text="@string/C_Item_1"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -86,6 +87,7 @@
         android:backgroundTint="#E35900"
         android:minWidth="250dp"
         android:minHeight="70dp"
+        android:onClick="launchBooks"
         android:text="@string/C_Item_2"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -104,6 +106,7 @@
         android:backgroundTint="#E35900"
         android:minWidth="250dp"
         android:minHeight="70dp"
+        android:onClick="launchElectronics"
         android:text="@string/C_Item_3"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -140,6 +143,7 @@
         android:backgroundTint="#E35900"
         android:minWidth="250dp"
         android:minHeight="70dp"
+        android:onClick="launchMedicines"
         android:text="@string/C_Item_5"
         android:textColor="@color/black"
         android:textSize="20sp"
