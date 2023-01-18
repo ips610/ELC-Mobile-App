@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchMainActivity2(View view) {
-        Intent ShoppingList = new Intent(this, MainActivity2.class);
-        startActivity(ShoppingList);
+        Intent Categories = new Intent(this, Categories.class);
+        startActivity(Categories);
     }
 }
