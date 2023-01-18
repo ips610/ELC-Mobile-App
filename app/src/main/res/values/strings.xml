@@ -5,7 +5,13 @@
     <string name="welcome">Welcome !!</string>
     <string name="ContinueLine">Click On Continue To Proceed</string>
     <string name="menu">Categories</string>
-    <string name="List_item_1">Electronics</string>
     <string name="Quantity">0</string>
     <string name="CartName">Cart</string>
+
+    <string name="C_Item_1">Grocery</string>
+    <string name="C_Item_2">Books</string>
+    <string name="C_Item_3">Electronics</string>
+    <string name="C_Item_4">Clothes</string>
+    <string name="C_Item_5">Medicines</string>
+
 </resources>
