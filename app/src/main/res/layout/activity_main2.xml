@@ -125,6 +125,7 @@
         android:backgroundTint="#E35900"
         android:minWidth="250dp"
         android:minHeight="70dp"
+        android:onClick="launchClothes"
         android:text="@string/C_Item_4"
         android:textColor="@color/black"
         android:textSize="20sp"

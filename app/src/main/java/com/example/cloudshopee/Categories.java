@@ -27,9 +27,14 @@ public class Categories extends AppCompatActivity {
         startActivity(Electronics);
     }
 
-
+    public void launchClothes(View view) {
+        Intent Clothes = new Intent(this, Clothes.class);
+        startActivity(Clothes);
+    }
     public void launchMedicines(View view) {
         Intent Medicines = new Intent(this, Medicines.class);
         startActivity(Medicines);
     }
+
+
 }
