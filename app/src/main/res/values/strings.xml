@@ -4,4 +4,8 @@
     <string name="ContinueButton">Continue</string>
     <string name="welcome">Welcome !!</string>
     <string name="ContinueLine">Click On Continue To Proceed</string>
+    <string name="menu">Categories</string>
+    <string name="List_item_1">Electronics</string>
+    <string name="Quantity">0</string>
+    <string name="CartName">Cart</string>
 </resources>
