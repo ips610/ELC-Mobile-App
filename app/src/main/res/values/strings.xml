@@ -14,4 +14,32 @@
     <string name="C_Item_4">Clothes</string>
     <string name="C_Item_5">Medicines</string>
 
+
+    <string name="GroceryHeading">Let\'s Buy Some Grocery !</string>
+
+
+    <string name="G_L1">Flour</string>
+    <string name="G_L2">Pulses</string>
+    <string name="G_L3">Brush</string>
+    <string name="G_L4">Chips</string>
+    <string name="G_L5">Biscuits</string>
+    <string name="G_L6">Chocolate</string>
+    <string name="G_L7">Sugar</string>
+    <string name="G_L8">Soap</string>
+    <string name="G_L9">Bread</string>
+    <string name="G_L10">Maggi</string>
+
+    <string name="G_L1_B">Add To Cart</string>
+    <string name="G_L2_B">Add To Cart</string>
+    <string name="G_L3_B">Add To Cart</string>
+    <string name="G_L4_B">Add To Cart</string>
+    <string name="G_L5_B">Add To Cart</string>
+    <string name="G_L6_B">Add To Cart</string>
+    <string name="G_L7_B">Add To Cart</string>
+    <string name="G_L8_B">Add To Cart</string>
+    <string name="G_L9_B">Add To Cart</string>
+    <string name="G_L10_B">Add To Cart</string>
+
+
+
 </resources>
