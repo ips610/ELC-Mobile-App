@@ -81,7 +81,8 @@
                     android:text="@string/G_L1_B"
                     android:textColor="#282828"
                     android:textSize="12sp"
-                    app:cornerRadius="100dp" />
+                    app:cornerRadius="100dp"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
