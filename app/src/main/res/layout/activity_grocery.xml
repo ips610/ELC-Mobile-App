@@ -42,13 +42,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:layout_weight="1">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -83,6 +83,7 @@
                     android:text="@string/G_L1_B"
                     android:textColor="#282828"
                     android:textSize="12sp"
+                    android:onClick="ShowAddToCart"
                     app:cornerRadius="100dp"
                     tools:ignore="DuplicateSpeakableTextCheck" />
             </androidx.cardview.widget.CardView>
@@ -120,6 +121,7 @@
                     android:text="@string/G_L2_B"
                     android:textColor="#282828"
                     android:textSize="12sp"
+                    android:onClick="ShowAddToCart"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
 
@@ -155,6 +157,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L3_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
@@ -191,6 +194,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L4_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
@@ -227,6 +231,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L5_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
@@ -263,6 +268,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L6_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
@@ -298,6 +304,7 @@
                     android:layout_gravity="end"
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L7_B"
+                    android:onClick="ShowAddToCart"
                     android:textColor="#282828"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
@@ -335,6 +342,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L8_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
@@ -371,6 +379,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L9_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
@@ -407,6 +416,7 @@
                     android:backgroundTint="#8899A6"
                     android:text="@string/G_L10_B"
                     android:textColor="#282828"
+                    android:onClick="ShowAddToCart"
                     android:textSize="12sp"
                     app:cornerRadius="100dp" />
             </androidx.cardview.widget.CardView>
