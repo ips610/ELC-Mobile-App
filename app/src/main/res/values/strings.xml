@@ -42,5 +42,8 @@
 
     <string name="G_Cart">0</string>
 
+    <string name="BC_Item_1">Educational</string>
+    <string name="BC_Item_2">Novels</string>
+
 
 </resources>
