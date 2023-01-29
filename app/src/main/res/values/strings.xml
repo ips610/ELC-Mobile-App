@@ -44,6 +44,8 @@
 
     <string name="BC_Item_1">Educational</string>
     <string name="BC_Item_2">Novels</string>
+    <string name="g_flour">FLOUR</string>
+    <string name="g_desc_flour_image_">Flour Image</string>
 
 
 </resources>
