@@ -3,6 +3,7 @@ package com.example.cloudshopee;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -24,5 +25,10 @@ public class Grocery extends AppCompatActivity {
         grocery_count++;
         gcart.setText(Integer.toString(grocery_count));
 
+    }
+
+    public void showFlour(View view) {
+        Intent Flour = new Intent(this, Flour.class);
+        startActivity(Flour);
     }
 }

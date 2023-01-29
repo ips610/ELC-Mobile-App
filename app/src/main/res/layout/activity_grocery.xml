@@ -71,6 +71,7 @@
                     android:paddingStart="15dp"
                     android:paddingEnd="15dp"
                     android:text="@string/G_L1"
+                    android:onClick="showFlour"
                     android:textColor="#FFFFFF"
                     android:textSize="34sp" />
 
