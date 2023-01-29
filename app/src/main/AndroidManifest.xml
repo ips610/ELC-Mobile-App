@@ -12,10 +12,16 @@
         android:theme="@style/Theme.CloudShopee"
         tools:targetApi="31">
         <activity
+            android:name=".Novel"
+            android:exported="false" />
+        <activity
+            android:name=".Educational"
+            android:exported="false" />
+        <activity
             android:name=".Clothes"
             android:exported="false"
             android:label="Clothes"
-            android:parentActivityName=".Categories"/>
+            android:parentActivityName=".Categories" />
         <activity
             android:name=".Books"
             android:exported="false"
