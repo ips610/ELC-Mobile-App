@@ -31,4 +31,9 @@ public class Grocery extends AppCompatActivity {
         Intent Flour = new Intent(this, Flour.class);
         startActivity(Flour);
     }
+
+    public void showPulses(View view) {
+        Intent Pulses = new Intent(this, Pulses.class);
+        startActivity(Pulses);
+    }
 }
