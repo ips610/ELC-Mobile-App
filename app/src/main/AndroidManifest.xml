@@ -12,10 +12,13 @@
         android:theme="@style/Theme.CloudShopee"
         tools:targetApi="31">
         <activity
+            android:name=".Chips"
+            android:exported="false" />
+        <activity
             android:name=".Brush"
             android:exported="false"
             android:label="Brushes"
-            android:parentActivityName=".Grocery"/>
+            android:parentActivityName=".Grocery" />
         <activity
             android:name=".Pulses"
             android:exported="false"
