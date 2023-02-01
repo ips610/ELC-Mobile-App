@@ -48,6 +48,8 @@
     <string name="g_desc_flour_image_">Flour Image</string>
     <string name="g_pulses">Pulses — Rs. 125 Per Kg</string>
     <string name="g_desc_pulses_image_">Pulses Image</string>
+    <string name="g_brush">Brush — Rs. 40 Per Piece</string>
+    <string name="g_desc_brush_image_">Tooth Brush Image</string>
 
 
 </resources>

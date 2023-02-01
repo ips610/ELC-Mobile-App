@@ -149,6 +149,7 @@
                     android:gravity="center"
                     android:paddingStart="15dp"
                     android:paddingEnd="15dp"
+                    android:onClick="showBrush"
                     android:text="@string/G_L3"
                     android:textColor="#FFFFFF"
                     android:textSize="34sp" />

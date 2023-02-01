@@ -5,16 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#00B0B0"
-    tools:context=".Pulses">
+    tools:context=".Brush">
+
+
+    <TextView
+        android:id="@+id/Brush_P"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/g_brush"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brush"
+        tools:ignore="DuplicateIds" />
 
     <ImageView
-        android:id="@+id/Pulses"
+        android:id="@+id/brush"
         android:layout_width="365dp"
         android:layout_height="403dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="23dp"
         android:background="#00B0B0"
-        android:contentDescription="@string/g_desc_pulses_image_"
+        android:contentDescription="@string/g_desc_brush_image_"
         android:cropToPadding="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,20 +37,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.076"
-        app:srcCompat="@drawable/pulses" />
-
-    <TextView
-        android:id="@+id/Pulses_P"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/g_pulses"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Pulses"
-        app:layout_constraintVertical_bias="0.372"
-        tools:ignore="DuplicateIds" />
+        app:srcCompat="@drawable/tooth_brush" />
 </androidx.constraintlayout.widget.ConstraintLayout>

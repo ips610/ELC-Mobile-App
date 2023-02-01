@@ -36,4 +36,9 @@ public class Grocery extends AppCompatActivity {
         Intent Pulses = new Intent(this, Pulses.class);
         startActivity(Pulses);
     }
+
+    public void showBrush(View view) {
+        Intent Brush = new Intent(this, Brush.class);
+        startActivity(Brush);
+    }
 }
