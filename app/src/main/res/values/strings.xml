@@ -50,6 +50,10 @@
     <string name="g_desc_pulses_image_">Pulses Image</string>
     <string name="g_brush">Brush — Rs. 40 Per Piece</string>
     <string name="g_desc_brush_image_">Tooth Brush Image</string>
+    <string name="g_chips">Lays — Rs. 20 Per Piece</string>
+    <string name="g_desc_chips_image_">Chips Image</string>
+    <string name="g_desc_biscuits_image_">Biscuits Image</string>
+    <string name="g_biscuits">Biscuits — Rs. 10 Per Piece</string>
 
 
 </resources>
