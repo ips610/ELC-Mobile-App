@@ -253,6 +253,7 @@
                 android:backgroundTint="#192730"
                 android:foregroundGravity="center"
                 app:cardCornerRadius="20dp"
+                android:onClick="showchocolate"
                 app:cardElevation="11dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="11dp">
@@ -265,6 +266,7 @@
                     android:gravity="center"
                     android:paddingStart="15dp"
                     android:paddingEnd="15dp"
+                    android:onClick="showchocolate"
                     android:text="@string/G_L6"
                     android:textColor="#FFFFFF"
                     android:textSize="34sp" />
