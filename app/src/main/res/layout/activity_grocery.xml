@@ -368,6 +368,7 @@
                 android:layout_gravity="center"
                 android:background="#FFF8DC"
                 android:backgroundTint="#192730"
+                android:onClick="showBread"
                 android:foregroundGravity="center"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="11dp"
@@ -381,6 +382,7 @@
                     android:fontFamily="monospace"
                     android:gravity="center"
                     android:paddingStart="15dp"
+                    android:onClick="showBread"
                     android:paddingEnd="15dp"
                     android:text="@string/G_L9"
                     android:textColor="#FFFFFF"
@@ -407,6 +409,7 @@
                 android:backgroundTint="#192730"
                 android:foregroundGravity="center"
                 app:cardCornerRadius="20dp"
+                android:onClick="showMaggi"
                 app:cardElevation="11dp"
                 app:cardUseCompatPadding="true"
                 app:contentPadding="11dp">
@@ -420,6 +423,7 @@
                     android:paddingStart="15dp"
                     android:paddingEnd="15dp"
                     android:text="@string/G_L10"
+                    android:onClick="showMaggi"
                     android:textColor="#FFFFFF"
                     android:textSize="34sp" />
 

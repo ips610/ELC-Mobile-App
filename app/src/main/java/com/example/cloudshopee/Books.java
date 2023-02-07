@@ -23,4 +23,9 @@ public class Books extends AppCompatActivity {
         Intent Novel = new Intent(this, Novel.class);
         startActivity(Novel);
     }
+
+    public void launchDevelopment(View view) {
+        Intent Develop = new Intent(this, Development.class);
+        startActivity(Develop);
+    }
 }

@@ -37,4 +37,8 @@ public class Categories extends AppCompatActivity {
     }
 
 
+    public void launchDevelopment(View view) {
+        Intent Develop = new Intent(this, Development.class);
+        startActivity(Develop);
+    }
 }

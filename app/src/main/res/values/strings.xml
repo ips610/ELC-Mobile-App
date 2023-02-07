@@ -61,6 +61,11 @@
     <string name="g_sugar">Sugar — Rs. 120 Per Kg</string>
     <string name="g_soap">Soap — Rs. 30 Per Piece</string>
     <string name="g_desc_soap_image_">Soap Image</string>
+    <string name="g_desc_bread_image_">Bread Image</string>
+    <string name="g_bread">Bread — Rs. 45 Per Piece</string>
+    <string name="g_maggi">Maggi — Rs. 10 Per Piece</string>
+    <string name="g_desc_maggi_image_">Maggi Image</string>
+    <string name="Develop">App is Under Development</string>
 
 
 </resources>
